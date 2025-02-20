@@ -1,0 +1,10 @@
+[package]
+name = "ort-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+half = "2.4.1"
+ndarray = "0.16.1"
+ort = { version="2.0.0-r.c.9", features=["load-dynamic","directml", "half", "ndarray"] }
+tokenizers = "0.21.0"
